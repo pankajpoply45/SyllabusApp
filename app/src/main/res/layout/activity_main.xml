@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgs2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="WELCOME TO CS_AKU SYLLABUS"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/bone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="1ST SEM"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/btwo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="2ND SEM"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/bthree"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="3RD SEM"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/bfour"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="4TH SEM"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <Button
+        android:id="@+id/bfive"
+        android:layout_width="250dp"
+        android:textColor="@color/colorDarkBlue"
+        android:layout_height="wrap_content"
+        android:text="5TH SEM"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/bsix"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="6TH SEM"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/bseven"
+        android:layout_width="250dp"
+        android:textColor="@color/colorDarkBlue"
+        android:layout_height="wrap_content"
+        android:text="7TH SEM"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/beight"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="8TH SEM"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="375dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="Thank you for using this app. This app is created for demo purpose. @Sanjay Shah " />
+</LinearLayout>
+
+

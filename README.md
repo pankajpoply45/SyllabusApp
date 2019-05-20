@@ -1,2 +1,2 @@
-# SyllabusApp
-This is a Syllabus Application for the students of my university.
+# Android-Syllabus-Application
+This app is a simple demo app for the students who belongs to that particular semester and branch.

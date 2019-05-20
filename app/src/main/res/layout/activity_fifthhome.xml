@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgs3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fifthhome">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="5TH SEM SYLLABUS"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/daa"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlue"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="DESIGN AND ANALYSIS OF ALGORITHMS" />
+
+    <Button
+        android:id="@+id/dbs"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlue"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="DATABASE SYSTEMS " />
+
+
+    <Button
+        android:id="@+id/cn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="COMPUTER NETWORKS"
+        android:textColor="@color/colorBlue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/os"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlue"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="OPERATING SYSTEM " />
+
+    <Button
+        android:id="@+id/mrp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="MICRO PROCESSOR AND ITS APPLICATION"
+        android:textColor="@color/colorBlue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/java"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlue"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="INTRODUCTION TO JAVA PROGRAMMING LANGUAGE" />
+
+
+</LinearLayout>

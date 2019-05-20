@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vidyasyllabus.sanjayshah.cs7thsyllabus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="Aku CS Syllabus"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dc" />
+        <activity android:name=".ai" />
+        <activity android:name=".crp" />
+        <activity android:name=".rts" />
+        <activity android:name=".ecom" />
+        <activity android:name=".xml1" />
+        <activity android:name=".home" />
+        <activity android:name=".fifthhome" />
+        <activity android:name=".daa" />
+        <activity android:name=".dbs" />
+        <activity android:name=".cn" />
+        <activity android:name=".os" />
+        <activity android:name=".mrp" />
+        <activity android:name=".java"></activity>
+    </application>
+
+</manifest>
